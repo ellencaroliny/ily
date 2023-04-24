@@ -143,8 +143,6 @@ ul#tp img {
    
     width: 155px;
     margin: 10px;
-    position: relative;
-    top: 175%;
     border-radius: 1px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
         }
@@ -166,13 +164,13 @@ ul#sp {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-}
+    }
 
 ul#sp img {
     
     width: 155px;
     margin: 10px;
+    padding-top: 155px;
     border-radius: 2px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.136);
 }
