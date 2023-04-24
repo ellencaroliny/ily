@@ -104,7 +104,20 @@ div#play{
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+div#play:hover{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    width: 112px;
+    height: 35px;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 ul#tp {
     position: absolute;
