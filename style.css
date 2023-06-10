@@ -108,4 +108,71 @@ div#perfis {
     width: 150px;
     text-align: center;
     margin: 5px white;
+    @charset "UTF-8";
+
+/* Estilos para dispositivos móveis */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        top: 50px;
+    }
+
+    div#pedro {
+        top: 30%;
+        width: 70px;
+        height: 80px;
+    }
+
+    div#pedro:hover {
+        transform: translate(-50%, -55%);
+    }
+
+    .people {
+        top: 45%;
+        transform: translate(-50%, 250%);
+    }
+
+    div#visitante {
+        top: 30%;
+        right: 30%;
+        width: 70px;
+        height: 80px;
+    }
+
+    div#visitante:hover {
+        transform: translate(-50%, -55%);
+    }
+
+    .visitor {
+        top: 45%;
+        right: 32%;
+        transform: translate(-50%, 250%);
+    }
+
+    div#valentine {
+        top: 30%;
+        left: 35%;
+        width: 70px;
+        height: 80px;
+    }
+
+    div#valentine:hover {
+        transform: translate(-50%, -55%);
+    }
+
+    .amo {
+        top: 45%;
+        left: 35%;
+        transform: translate(-50%, 250%);
+    }
+
+    div#perfis {
+        top: 45%;
+        transform: translate(-50%, 280%);
+        height: 40px;
+        width: 200px;
+        font-size: 12px;
+    }
+}
+
 }
