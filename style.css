@@ -25,8 +25,7 @@ div#pedro {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 8px;
-    background-color: white;
+    border-radius: 5px;
     width: 90px;
     height: 100px;
  
@@ -37,11 +36,62 @@ div#pedro:hover {
     transform: translate(-50%, -60%);
 }
 
-p {
+.people {
     color: rgb(105, 105, 105);
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, 300%);
+}
+
+div#visitante{
+    background-image: url(./profile.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 33%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 100px;
+ 
+    transition: transform 0.3s ease;
+}
+div#visitante:hover {
+    transform: translate(-50%, -60%);
+}
+.visitor {
+    color: rgb(105, 105, 105);
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    transform: translate(-50%, 300%);
+}
+div#valentine{
+    background-image: url(./valentine.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 100px;
+ 
+    transition: transform 0.3s ease;
+}
+div#valentine:hover {
+    transform: translate(-50%, -60%);
+}
+.amo {
+    color: rgb(105, 105, 105);
+    position: absolute;
+    top: 50%;
+    left: 40%;
     transform: translate(-50%, 300%);
 }
 
