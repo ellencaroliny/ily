@@ -108,8 +108,7 @@ div#perfis {
     width: 150px;
     text-align: center;
     margin: 5px white;
-    @charset "UTF-8";
-
+    
 /* Estilos para dispositivos móveis */
 
 @media only screen and (max-width: 600px) {
@@ -119,51 +118,26 @@ div#perfis {
 
     div#pedro {
         top: 30%;
-        width: 70px;
-        height: 80px;
+        left: 20%;
     }
-
-    div#pedro:hover {
-        transform: translate(-50%, -55%);
-    }
-
-    .people {
-        top: 45%;
-        transform: translate(-50%, 250%);
-    }
-
     div#visitante {
         top: 30%;
-        right: 60%;
-        width: 70px;
-        height: 80px;
-    }
-
-    div#visitante:hover {
-        transform: translate(-50%, -55%);
+        left: 50%;
     }
 
     .visitor {
         top: 45%;
-        right: 62%;
-        transform: translate(-50%, 250%);
+        left: 50%;
     }
 
     div#valentine {
         top: 30%;
-        left: 60%;
-        width: 70px;
-        height: 80px;
-    }
-
-    div#valentine:hover {
-        transform: translate(-50%, -55%);
+        left: 80%;
     }
 
     .amo {
         top: 45%;
-        left: 65%;
-        transform: translate(-50%, 250%);
+        left: 80%;
     }
 
     div#perfis {
@@ -175,4 +149,28 @@ div#perfis {
     }
 }
 
-}
+    
+       
+       
+        
+
+   
+  
+        
+
+   
+        
+        
+       
+       
+   
+
+   
+       
+
+   
+      
+
+   
+        
+      
