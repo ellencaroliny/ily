@@ -134,7 +134,7 @@ div#perfis {
 
     div#visitante {
         top: 30%;
-        right: 30%;
+        right: 60%;
         width: 70px;
         height: 80px;
     }
@@ -145,13 +145,13 @@ div#perfis {
 
     .visitor {
         top: 45%;
-        right: 32%;
+        right: 62%;
         transform: translate(-50%, 250%);
     }
 
     div#valentine {
         top: 30%;
-        left: 35%;
+        left: 60%;
         width: 70px;
         height: 80px;
     }
@@ -162,7 +162,7 @@ div#perfis {
 
     .amo {
         top: 45%;
-        left: 35%;
+        left: 65%;
         transform: translate(-50%, 250%);
     }
 
